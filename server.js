@@ -40,3 +40,12 @@ server.listen(8080, '0.0.0.0', () =>{
   console.log('tallyho Mother Fucker!');
   console.log(timeStamp);
 });
+
+// function headerGen(content){
+//   `method
+//   server
+//   date
+//   Content-Type:
+//   content-length: content.length
+//   connection: keep-alive`;
+// }
