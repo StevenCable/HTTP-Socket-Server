@@ -18,6 +18,14 @@ module.exports._404 = `
 </html>
 `;
 
+/*module.exports._404Header =
+`HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 08 Jul 2015 22:31:15 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: ${_404.length}
+Connection: keep-alive`*/
+
 module.exports.helium = `
 <!DOCTYPE html>
 <html lang="en">
@@ -36,6 +44,14 @@ module.exports.helium = `
 </html>
 `;
 
+/*module.exports.heliumHeader =
+`HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 08 Jul 2015 22:31:15 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: ${helium.length}
+Connection: keep-alive`*/
+
 module.exports.hydrogen = `
 <!DOCTYPE html>
 <html lang="en">
@@ -53,6 +69,14 @@ module.exports.hydrogen = `
 </body>
 </html>
 `;
+
+/*module.exports.hydrogenHeader =
+`HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 08 Jul 2015 22:31:15 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: ${hydrogen.length}
+Connection: keep-alive`*/
 
 module.exports.index = `
 <!DOCTYPE html>
@@ -77,10 +101,18 @@ module.exports.index = `
 </body>
 </html>`;
 
+/*module.exports.indexHeader =
+`HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 08 Jul 2015 22:31:15 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: ${index.length}
+Connection: keep-alive`*/
+
 module.exports.styles = `
 @import url(http://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab);
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -94,8 +126,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -106,7 +138,7 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -189,4 +221,10 @@ a:hover{
   border-bottom: 1px dashed #C6C5AC;
 }`;
 
-
+/*module.exports.stylesHeader =
+`HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Wed, 08 Jul 2015 22:31:15 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: ${styles.length}
+Connection: keep-alive`*/
